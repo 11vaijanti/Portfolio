@@ -1,0 +1,60 @@
+@media only screen and (max-width:600px) {
+    #header{
+        background-image: url(imgs/maya.png);
+    }
+    .text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff04ff;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .subtitle{
+        font-size: 40px;
+    }
+    .aboutcol-1, .aboutcol-2{
+        flex-basis: 100%;
+    }
+    .aboutcol-1{
+        margin-bottom: 30px;
+    }
+    .aboutcol-2{
+        font-size: 14px;
+    }
+    .tablinks{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contactleft,.contactright{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+
+}
